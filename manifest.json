@@ -7,7 +7,7 @@
 	"manifest_version": 3,
 	"name": "XPAD | Play xCloud using keyboard and mouse.",
 	"description": "Play Xbox Cloud Gaming (xCloud) using keyboard and mouse.",
-	"permissions": ["storage"],
+	"permissions": [ "storage", "tabs" ],
 	"short_name": "XPAD",
 	"version": "0.1",
    	"content_scripts": [

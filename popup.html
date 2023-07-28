@@ -17,21 +17,21 @@
         <br/>
 
         <div>
-            <label for="cars">Selecione um perfil:</label>
-            <select name="cars" id="cars">
-                <option value="volvo">Default</option>
+            <label for="profiles">Selecione um perfil:</label>
+            <select id="profiles">
+                <option value="Default" selected="selected">Default</option>
             </select>
         </div>
 
         <br/>
 
-        <div>
+        <!-- <div>
             <input type="text" placeholder="Nome do novo perfil">
             <button>Criar</button>
             <br/>
             <br/>
             <span>Este perfil já existe</span>
-        </div>
+        </div> -->
 
         <br/>
 
@@ -43,67 +43,67 @@
                 <table>
                     <tr>
                         <td>Botão A</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button" id="a_button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Botão B</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Botão X</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Botão Y</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>LB</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>RB</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>LT</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>RT</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Back/View</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Start/Menu</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Seta Cima</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Seta Baixo</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Seta Esquerda</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Seta Direita</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Botão Gatilho Esquerdo</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                     <tr>
                         <td>Botão Gatilho Direito</td>
-                        <td><button>Selecionar</button></td>
+                        <td><button class="set-button">Selecionar</button></td>
                     </tr>
                 </table>
             </div>
@@ -132,6 +132,11 @@
             <br>  
 
         </div>
+
+
+        <button id="saveButton">save</button>
+
+        <script src="scripts/popup.js"></script>
 
     </body>
 </html>
