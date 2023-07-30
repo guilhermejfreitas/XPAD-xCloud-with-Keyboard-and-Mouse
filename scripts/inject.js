@@ -95,18 +95,6 @@ const fakeGamepad = {
     hapticActuators: [],
 };
 
-// Função para tratar mudanças no localStorage
-function handleLocalStorageChange(event) {
-    if (event.key === 'TesteVAR') {
-      // Aqui você pode executar qualquer ação que desejar com o valor atualizado da variável
-      const novoValor = event.newValue;
-      console.log('Nova variável detectada:', novoValor);
-    }
-  }
-  
-  // Adicionar o evento de escuta para detectar mudanças no localStorage
-  window.addEventListener('storage', handleLocalStorageChange);
-
 const SetAxes = (x, y) => {
 
 }

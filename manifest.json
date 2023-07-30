@@ -13,7 +13,7 @@
    	"content_scripts": [
 		{
 			"matches": ["https://www.xbox.com/*","https://www.google.com/*"],
-			"js": ["scripts/injector.js"]
+			"js": ["scripts/injector.js", "scripts/loader.js"]
 		}
 	],
 	"web_accessible_resources": [

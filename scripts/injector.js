@@ -11,8 +11,7 @@ function injectScript(file) {
 const url = chrome.runtime.getURL('scripts/inject.js');
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    if (message.action === "setLocalStorage") {
-      // Define a variável no localStorage
-      localStorage.setItem(message.key, message.value);
-    }
+  if (message.action === "setLocalStorage") {
+    localStorage.setItem(message.key, message.value);
+  }
 });
